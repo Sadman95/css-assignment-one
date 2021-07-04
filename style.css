@@ -58,7 +58,8 @@ p{
 #resume{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
+
 }
 .pd-r1{
     padding-right: 100px;
