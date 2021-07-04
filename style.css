@@ -70,12 +70,17 @@ p{
 /* experience css start */
 #experience{
     display: block;
-    margin-bottom: 30em;
+    padding-bottom: 600px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+
 }
 #experience h1{
     margin-left: 30px;
 }
 .new-width{
+    background-color: #fff;
     float: left;
     margin-left: 70px;
     width: 40%;
