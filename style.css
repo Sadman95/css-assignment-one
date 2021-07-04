@@ -5,6 +5,7 @@ body{
 }
 a{
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
@@ -46,11 +47,18 @@ p{
 }
 .git-link{
     color: #fff;
-    text-transform: uppercase;
     background: linear-gradient(90deg, rgba(237,124,10,1) 0%, rgba(255,3,3,1) 100%);
     padding: 20px 40px;
     border-radius: 5px;
 }
 /* about css end */
+
+/* resume css start */
+/* #resume{
+    background: url(./images/dream-bg.png) left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+/* resume css end */
 
 
