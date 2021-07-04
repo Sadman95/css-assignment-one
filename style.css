@@ -108,7 +108,7 @@ h2 {
 }
 
 #box-border-left {
-    border-image: linear-gradient(lightsalmon, tomato) 1 / 1 / 0 stretch;
+    border-image: linear-gradient(#f3f30c, #ff340f) 1 / 1 / 0 stretch;
 }
 
 #box-border-right {
