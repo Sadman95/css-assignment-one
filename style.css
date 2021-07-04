@@ -7,7 +7,9 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-
+ul{
+    list-style: none;
+}
 
 
 section {
@@ -40,7 +42,16 @@ h1 {
     width: 80%;
     float: right;
 }
-
+.social{
+    display: flex;
+}
+.social li{
+    padding-left: 12px;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+}
 h5 {
     font-size: 1.2rem;
     font-weight: 700;
