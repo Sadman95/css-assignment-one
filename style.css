@@ -1,74 +1,84 @@
-
-body{
+body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     text-transform: uppercase;
 }
 
 
 
-section{
+section {
     padding: 100px 0;
     display: flex;
 }
 
 /* about css start */
-#about{
+#about {
     background: url(./images/top-banner.png) left top;
     background-repeat: no-repeat;
     background-size: cover;
 }
-h1{
+
+h1 {
     font-size: 50px;
     margin-bottom: 20px;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 0 50px;
 }
-.color-orng{
+
+.color-orng {
     color: orange;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
     float: right;
 }
-h5{
+
+h5 {
     font-size: 1.2rem;
     font-weight: 700;
 }
-p{
+
+p {
     margin-bottom: 30px;
     line-height: 28px;
     color: grey;
     text-align: justify;
 }
-.git-link{
+
+.git-link {
     color: #fff;
-    background: linear-gradient(90deg, rgba(237,124,10,1) 0%, rgba(255,3,3,1) 100%);
+    background: linear-gradient(90deg, rgba(237, 124, 10, 1) 0%, rgba(255, 3, 3, 1) 100%);
     padding: 20px 40px;
     border-radius: 5px;
 }
+
 /* about css end */
 
 /* resume css start */
-#resume{
+#resume {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
 
 }
-.pd-r1{
+
+.pd-r1 {
     padding-right: 100px;
 }
+
 /* resume css end */
 
 
 /* experience css start */
-#experience{
+#experience {
     display: block;
     padding-bottom: 600px;
     background-image: url(images/exp-bg.png);
@@ -76,10 +86,12 @@ p{
     background-position: left center;
 
 }
-#experience h1{
+
+#experience h1 {
     margin-left: 30px;
 }
-.new-width{
+
+.new-width {
     background-color: #fff;
     float: left;
     margin-left: 70px;
@@ -90,24 +102,27 @@ p{
     border-bottom-right-radius: 5px;
     border-left: 8px solid;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-#box-border-left{
+
+#box-border-left {
     border-image: linear-gradient(lightsalmon, tomato) 1 / 1 / 0 stretch;
 }
-#box-border-right{
+
+#box-border-right {
     border-image: linear-gradient(blue, cyan) 1 / 1 / 0 stretch;
 }
+
 /* experience css end */
 
 
 /* footer css start */
-footer p{
+footer p {
     color: dimgray;
     font-size: 12px;
     text-align: center;
 }
+
 /* footer css end */
-
-
