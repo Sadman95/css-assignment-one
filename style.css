@@ -11,7 +11,7 @@ a{
 
 
 section{
-    padding: 70px 0;
+    padding: 100px 0;
     display: flex;
 }
 
@@ -44,6 +44,7 @@ p{
     margin-bottom: 30px;
     line-height: 28px;
     color: grey;
+    text-align: justify;
 }
 .git-link{
     color: #fff;
@@ -54,11 +55,14 @@ p{
 /* about css end */
 
 /* resume css start */
-/* #resume{
-    background: url(./images/dream-bg.png) left top;
+#resume{
+    background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
-    background-size: cover;
-} */
+    background-position: right;
+}
+.pd-r1{
+    padding-right: 100px;
+}
 /* resume css end */
 
 
