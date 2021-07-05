@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -78,7 +79,7 @@ p {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-
+    background-attachment: fixed;
 }
 
 .pd-r1 {
@@ -137,3 +138,55 @@ footer p {
 }
 
 /* footer css end */
+
+
+
+/* responsive start */
+@media screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .half-width{
+        width: 80%;
+        text-align: center;
+    }
+    .social{
+        justify-content: center;
+        align-items:center;
+        padding: 0;
+    }
+    #about p{
+        padding: 0 20px;
+        margin-bottom: 32px;
+    }
+    .half-width img{
+        display: block;
+        margin: 80px auto 0 auto;
+        float: none;
+    }
+    .pd-r1 {
+        padding: 0;
+        margin-bottom: 7em;
+    }
+    .git-link{
+        padding: 15px 20px;
+    }
+    #experience{
+        padding-bottom: 200px;
+    }
+    #experience h1 {
+        text-align: center;
+    }
+    .new-width{
+        margin: auto;
+        width: 70%;
+        float: none;
+        margin-bottom: 42px;
+        box-shadow: 0px 6px 18px 0px rgb(0 0 0 / 50%);
+    }
+    h2 {
+        font-size: 32px;
+    }
+}
