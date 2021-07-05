@@ -178,6 +178,7 @@ footer p {
     }
     #experience h1 {
         text-align: center;
+        margin-left: 0;
     }
     .new-width{
         margin: auto;
